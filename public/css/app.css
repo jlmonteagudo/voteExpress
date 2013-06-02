@@ -1,0 +1,35 @@
+/* app css stylesheet */
+
+body {
+  padding: 20px;
+}
+
+h3 {
+  color: #00aaff;
+}
+
+.container {
+  width: 500px;
+  float: left;
+}
+
+table {
+  font-size: 16px;
+}
+
+thead {
+  font-weight: bolder;
+  color: #888;
+  font-size: 18px;
+}
+
+#chart {
+	width: 600px;
+	height: 600px;
+}
+
+.question {
+  font-size: 22px;
+  color: #888;
+  margin-bottom: 30px;
+}

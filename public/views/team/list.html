@@ -1,0 +1,31 @@
+<div class="container">
+
+	<div class="page-header">
+		<h3>Vote - Brazil World Cup 2014</h3>
+	</div>
+
+	<p class="question">Which team will win the Brazil World Cup 2014?</p>
+
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<td>Team</td>
+				<td></td>
+				<td>Votes</td>
+				<td/>
+			</tr>
+		</thead>
+		<tr ng-repeat="team in teams">
+			<td><img ng-src="{{team.urlImage}}" style="float: left"/></td>
+			<td>{{team.name}}</td>
+			<td>{{team.votes}}</td>
+			<td><button class="btn btn-small btn-primary" type="button" value="Vote" ng-click="vote(team)" ng-disabled="disableVote">Vote</buton></td>
+		</tr>
+	</table>
+
+</div>
+
+<div class="container">
+	<chart></chart>
+</div>
+
